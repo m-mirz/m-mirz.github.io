@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/posts/first-post/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://example.org/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
+    <lastmod>2019-05-26T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/en/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://example.org/posts/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/oliven_oel_brot/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/buchweizencrepes/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://example.org/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/churros/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/croissants/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/datteln_schinken/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/gulasch_spaetzle/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/joghurt-sauce/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/kloesse/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/linsensuppe/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/pfannkuchen/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/pimientos_padron/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/pizza/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/en/recipes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://example.org/recipes/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://example.org/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://example.org/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://example.org/recipes/weizencrepes/</loc>
+  </url>
+  
+</urlset>

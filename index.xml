@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Markus&#39; Blog</title>
+    <link>http://example.org/</link>
+    <description>Recent content in Home on Markus&#39; Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Erster Post</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>Willkommen auf meinem neuen Blog. Viel Spaß mit den ersten Rezepten :-)</description>
+    </item>
+    
+    <item>
+      <title>Brot mit Olivenöl</title>
+      <link>http://example.org/recipes/oliven_oel_brot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/oliven_oel_brot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Buchweizencrepes</title>
+      <link>http://example.org/recipes/buchweizencrepes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/buchweizencrepes/</guid>
+      <description>Buchweizencrepes Zutaten für 15 Crepes  250g Buchweizenmehl 1 Esslöffel Weizenmehl 1 Teelöffel grober Salz 1 Ei 12cl Wasser 48cl Halbfettmilch  Zubereitung Buchweizenmehl, Weizenmehl, Salz, Ei und Wasser in eine Schüssel geben. Verrühren bis sich eine kompakte Teigkugel ergibt. 12cl Milch hinzugeben und verdünnen, dann 5 Minuten schlagen bis ein absolut homogener Teig entsteht. Nach und nach weitere 36cl Milch hinzugeben.</description>
+    </item>
+    
+    <item>
+      <title>Churros</title>
+      <link>http://example.org/recipes/churros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/churros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Croissants</title>
+      <link>http://example.org/recipes/croissants/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/croissants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Datteln mit Schinken</title>
+      <link>http://example.org/recipes/datteln_schinken/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/datteln_schinken/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gulasch mit Spätzle</title>
+      <link>http://example.org/recipes/gulasch_spaetzle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/gulasch_spaetzle/</guid>
+      <description>Zutaten für die Soße  500g Nuss oder Schulter vom Schwein 1-2 große Zwiebeln 1 Stück Knollensellerie 1-2 Tomaten oder Tomatenmark  Zutaten für die Spätzle  300g Mehl 3 Eier  Zubereitung der Soße Fleisch leicht salzen und gut anbraten. Dann die Zwiebeln kleinschneiden und beides zusammen anbraten. Nun gewürfelte Tomaten und geriebene Sellerie dazu und alles zusammen mermals anbraten. Immer wieder etwa eine halbe Tasse Wasser hinzufügen bevor es stark anbrennt.</description>
+    </item>
+    
+    <item>
+      <title>Joghurt-Sauce</title>
+      <link>http://example.org/recipes/joghurt-sauce/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/joghurt-sauce/</guid>
+      <description> Schmand-Joghurt Sauce Zutaten  1 Packung Schmand 1 Packung Joghurt 1 Knoblauchzehe 1 Teelöffel Olivenöl Salz Pfeffer Frühlingszwiebeln und andere Kräuter  </description>
+    </item>
+    
+    <item>
+      <title>Klöße</title>
+      <link>http://example.org/recipes/kloesse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/kloesse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linsensuppe</title>
+      <link>http://example.org/recipes/linsensuppe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/linsensuppe/</guid>
+      <description>Linsensuppe Zutaten Suppe  Butter 1 Zwiebel 1 kleine Möhre 1 Stückchen Knollen Sellerie 1 Knoblauchzehe 1 Tasse Linsen für 2 Pers. Padina Salz, Pfeffer  Spätzle  3 Esslöffel Mehl 1 Ei etwas Wasser ca 2 Esslöffel etwas Salz  Zubereitung Direkt kochen. Braucht dann 1,5 Stunden. Zuerst die Butter auslassen und die Zwiebeln anbraten. Wenn die glasig werden, kommt die fein gewürfelte Karotte hinein. Dann schüttest Du mit 1Liter Wasser auf und drehst den Herd auf 9 (volle Pulle) Dann Wäschetrockner Du die Linsen, indem Du sie in ein feines Sieb gibst und ordentlich Wasser darüber laufen lässt.</description>
+    </item>
+    
+    <item>
+      <title>Pfannkuchen</title>
+      <link>http://example.org/recipes/pfannkuchen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/pfannkuchen/</guid>
+      <description> Pfannkuchen Zutaten für etwa 6 Stück  225g Mehl 3 El Zucker 2 Tl Vanille-Zucker 3 Eier 2 gestr. Tl Backpulver 1&amp;frasl;4 Fl. Rumaroma 0.5 L Milch  </description>
+    </item>
+    
+    <item>
+      <title>Pimientos de padron</title>
+      <link>http://example.org/recipes/pimientos_padron/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/pimientos_padron/</guid>
+      <description> Pimientos de Padron </description>
+    </item>
+    
+    <item>
+      <title>Pizza</title>
+      <link>http://example.org/recipes/pizza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/pizza/</guid>
+      <description>Zutaten für 2 große runde Pizza-Böden 400 g Mehl 230 ml Wasser (wichtig: heißes Wasser) 1 Päckchen Trockenhefe 11 g Salz
+Zubereitung Die trockenen Zutaten in eine Rührschüssel, verrühren, dann das heiße Wasser dazu. Rühren und anschließend kneten, bis der Teig geschmeidig ist, auch ganz wichtig!
+Dann eine halbe bis Stunde an einem warmen Ort gehen lassen, dabei abdecken, dass der Teig keine Feuchtigkeit verliert.
+Zum Backen: - Ofen auf höchste Hitzestufe Ober- und Unterhitze - Backblech drinn lassen, soll auch heiß werden - Backzeit: ca.</description>
+    </item>
+    
+    <item>
+      <title>Weizencrepes</title>
+      <link>http://example.org/recipes/weizencrepes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/recipes/weizencrepes/</guid>
+      <description>Weizencrepes Zutaten für 20 Crepes  100 bis 125g Zucker 250g Weizenmehl 50cl Milch (fettarm) 1 Esslöffel Buchweizenmehl 1 Prise Kochsalz 2 Eier 25g zerlassene Butter oder 1 Esslöffel Öl 1 Päckchen Vanillezucker 10cl Wasser  Zubereitung Zucker, Buchweizenmehl, Salz, Eier, Butter bzw. Öl, 1 Päckchen Vanillezucker und Wasser in eine Schüssel geben. Alles schlagen und nach und nach Weizenmehl und 12cl Milch hinzufügen bis Sie einen homogenen, klümpchenfreien Teig erhalten.</description>
+    </item>
+    
+  </channel>
+</rss>
