@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Markus&#39; Blog</title>
-    <link>http://example.org/posts/</link>
+    <link>https://m-mirz.github.io/posts/</link>
     <description>Recent content in Posts on Markus&#39; Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Sun, 26 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://m-mirz.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Erster Post</title>
-      <link>http://example.org/posts/first-post/</link>
+      <link>https://m-mirz.github.io/posts/first-post/</link>
       <pubDate>Sun, 26 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/posts/first-post/</guid>
+      <guid>https://m-mirz.github.io/posts/first-post/</guid>
       <description>Willkommen auf meinem neuen Blog. Viel Spaß mit den ersten Rezepten :-)</description>
     </item>
     

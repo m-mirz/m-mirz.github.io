@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>http://example.org/de/sitemap.xml</loc>
+	   	<loc>https://m-mirz.github.io/de/sitemap.xml</loc>
 		
 	   	<lastmod>2019-05-26T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://example.org/en/sitemap.xml</loc>
+	   	<loc>https://m-mirz.github.io/en/sitemap.xml</loc>
 		
 	</sitemap>
 	
