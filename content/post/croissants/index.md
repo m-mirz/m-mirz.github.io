@@ -2,15 +2,13 @@
 title: Croissants
 description: 
 slug: croissants
-date: 2022-03-06 00:00:00+0000
+date: 2022-11-06
 image: croissants.jpg
 categories:
     - Recipes
 tags:
     - Recipes
 ---
-
-# Croissants
 
 ## Zutaten
 
