@@ -27,5 +27,4 @@ Hefe in das Wasser geben und verrühren. Mehl und Zucker vermischen und dann das
 
 ### Butter vorbereiten
 
-Butter mit dem Teigrolle etwas plattdrücken. Dann die Butter auf ein Backpapier legen und dieses quadratisch falten. Nun die Butter mit der Teigrolle platthauen und ausrollen bis sie die Backpapierform ausfüllt. Die Butter ebenfalls für 20 Minuten in den Kühlschrank legen damit sie nicht weich wird.
-Blätterteig
+Butter mit einer Teigrolle etwas plattdrücken. Dann die Butter auf ein Backpapier legen und dieses quadratisch falten. Nun die Butter mit der Teigrolle platthauen und ausrollen bis sie die Backpapierform ausfüllt. Die Butter ebenfalls für 20 Minuten in den Kühlschrank legen damit sie nicht weich wird.
