@@ -3,7 +3,7 @@ title: Linsensuppe
 description: 
 slug: linsensuppe
 date: 2022-11-06
-image: linsensuppe.jpg
+image: wooden-board.jpg
 categories:
     - Recipes
 tags:

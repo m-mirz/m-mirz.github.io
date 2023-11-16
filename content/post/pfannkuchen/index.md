@@ -3,7 +3,7 @@ title: Pfannkuchen
 description: 
 slug: pfannkuchen
 date: 2022-11-06
-image: 
+image: wooden-board.jpg
 categories:
     - Recipes
 tags:

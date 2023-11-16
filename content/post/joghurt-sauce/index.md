@@ -3,7 +3,7 @@ title: Joghurt Sauce
 description: 
 slug: joghurt-sauce
 date: 2022-11-06
-image: 
+image: wooden-board.jpg
 categories:
     - Recipes
 tags:
