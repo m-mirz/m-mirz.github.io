@@ -3,7 +3,7 @@ title: Datteln mit Schinken
 description: 
 slug: datteln
 date: 2022-11-06
-image: wooden-board.jpg
+image: /wooden-board.jpg
 categories:
     - Recipes
 tags:
