@@ -3,7 +3,7 @@ title: ssh - cheat sheet
 description: 
 slug: ssh
 date: 2023-11-16
-image: matrix.png
+image: matrix.jpg
 categories:
     - Coding
 tags:
