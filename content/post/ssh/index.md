@@ -7,12 +7,12 @@ image: matrix.jpg
 categories:
     - Coding
 tags:
-    - ssh
+    - SSH
 ---
 
-## ssh key
+## SSH key
 
-Create ssh key
+Create SSH key
 
 ```bash {linenos=false}
     ssh-keygen -t ed25519 -C "example@example.com"
@@ -24,15 +24,15 @@ Copy public key to remote server
     ssh-copy-id
 ```
 
-## ssh agent
+## SSH agent
 
-Use ssh-agent in remote server
+Use SSH-agent in remote server
 
 ```bash {linenos=false}
     exec ssh-agent bash
 ```
 
-Start ssh agent
+Start SSH agent
 
 ```bash {linenos=false}
     eval $(ssh-agent -s)
@@ -56,9 +56,9 @@ Enable agent forwarding in the remote ssh server config
     vi /etc/ssh/sshd_config
 ```
 
-## ssh server
+## SSH server
 
-Start and stop ssh server
+Start and stop SSH server
 
 ```bash {linenos=false}
     systemctl status sshd
