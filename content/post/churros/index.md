@@ -5,9 +5,7 @@ slug: churros
 date: 2022-11-06
 image: churros.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten

@@ -5,9 +5,7 @@ slug: croissants
 date: 2022-11-06
 image: croissants.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten

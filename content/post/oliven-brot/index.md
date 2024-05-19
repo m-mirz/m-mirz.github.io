@@ -5,9 +5,7 @@ slug: olivenoel-brot
 date: 2022-11-06
 image: olivenoel_brot.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zubereitung

@@ -5,9 +5,7 @@ slug: datteln
 date: 2022-11-06
 image: /wooden-board.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten für 3-4 Personen

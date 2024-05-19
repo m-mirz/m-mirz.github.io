@@ -5,9 +5,7 @@ slug: gulasch-spaetzle
 date: 2022-11-07
 image: gulasch_spaetzle.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten für die Soße

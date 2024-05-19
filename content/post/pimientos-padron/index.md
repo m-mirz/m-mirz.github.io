@@ -5,9 +5,7 @@ slug: pimientos-padron
 date: 2022-11-07
 image: pimientos_padron.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten

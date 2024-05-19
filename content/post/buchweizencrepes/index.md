@@ -5,9 +5,7 @@ slug: buchweizencrepes
 date: 2022-11-06
 image: buchweizencrepes.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten für 15 Crepes

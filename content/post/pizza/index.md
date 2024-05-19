@@ -5,9 +5,7 @@ slug: pizza
 date: 2022-11-07
 image: pizza.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 Hier steht ein größeres Update bevor :-)

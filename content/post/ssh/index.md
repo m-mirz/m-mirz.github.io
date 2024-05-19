@@ -7,7 +7,7 @@ image: matrix.jpg
 categories:
     - Coding
 tags:
-    - Coding
+    - ssh
 ---
 
 ## ssh key

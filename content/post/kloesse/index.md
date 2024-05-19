@@ -5,9 +5,7 @@ slug: kloesse
 date: 2022-11-07
 image: kloesse.jpg
 categories:
-    - Recipes
-tags:
-    - Recipes
+    - Food
 ---
 
 ## Zutaten
