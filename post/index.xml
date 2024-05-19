@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Markus' blog</title><link>https://m-mirz.github.io/post/</link><description>Recent content in Posts on Markus' blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://m-mirz.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ssh - cheat sheet</title><link>https://m-mirz.github.io/p/ssh/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/ssh/</guid><description>&lt;img src="https://m-mirz.github.io/matrix.jpg" alt="Featured image of post ssh - cheat sheet" />&lt;h2 id="ssh-key">SSH key&lt;/h2>
+&lt;p>Create SSH key&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-keygen -t ed25519 -C &lt;span class="s2">&amp;#34;example@example.com&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Copy public key to remote server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-copy-id
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-agent">SSH agent&lt;/h2>
+&lt;p>Use SSH-agent in remote server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">exec&lt;/span> ssh-agent bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Start SSH agent&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">eval&lt;/span> &lt;span class="k">$(&lt;/span>ssh-agent -s&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Add key to agent&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-add ~/.ssh/&lt;span class="o">[&lt;/span>key file&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enable agent forwarding in the local ssh config&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ForwardAgent yes
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enable agent forwarding in the remote ssh server config&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> vi /etc/ssh/sshd_config
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-server">SSH server&lt;/h2>
+&lt;p>Start and stop SSH server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> systemctl status sshd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> systemctl start sshd
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="jump-host">jump host&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh -J user@jumphost -R 8080:localhost:8080 user@hiddenhost
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ssh -R 8080:hiddenhost:8080 user@jumphost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Gulasch mit Spätzle</title><link>https://m-mirz.github.io/p/gulasch-spaetzle/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/gulasch-spaetzle/</guid><description>&lt;img src="https://m-mirz.github.io/p/gulasch-spaetzle/gulasch_spaetzle.jpg" alt="Featured image of post Gulasch mit Spätzle" />&lt;h2 id="zutaten-für-die-soße">Zutaten für die Soße&lt;/h2>
+&lt;ul>
+&lt;li>500g Nuss oder Schulter vom Schwein&lt;/li>
+&lt;li>1-2 große Zwiebeln&lt;/li>
+&lt;li>1 Stück Knollensellerie&lt;/li>
+&lt;li>1-2 Tomaten oder Tomatenmark&lt;/li>
+&lt;/ul>
+&lt;h2 id="zutaten-für-die-spätzle">Zutaten für die Spätzle&lt;/h2>
+&lt;ul>
+&lt;li>300g Mehl&lt;/li>
+&lt;li>3 Eier&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung-der-soße">Zubereitung der Soße&lt;/h2>
+&lt;p>Fleisch leicht salzen und gut anbraten. Dann die Zwiebeln kleinschneiden und beides zusammen anbraten. Nun gewürfelte Tomaten und geriebene Sellerie dazu und alles zusammen mehrmals anbraten. Immer wieder etwa eine halbe Tasse Wasser hinzufügen bevor es stark anbrennt.
+Mit Salz, Pfeffer und Paprikapulver abschmecken.
+Die Soße kann mit Mehl gebunden werden.&lt;/p>
+&lt;h2 id="zubereitung-der-spätzle">Zubereitung der Spätzle&lt;/h2>
+&lt;p>Zutaten mischen und einen halben Teelöffel Salz dazu. Dann mit etwa 200 ml Wasser mischen bis die Masse leicht umzurühren ist. Nun die Spätzle in kochendes Wasser geben. Um die Spätzle zu formen kann man Löffel verwenden, die zwischendurch immer wieder in das kochende Wasser getaucht werden sollten. Wenn die Spätzle an der Oberfläche schwimmen, sind sie fertig.&lt;/p></description></item><item><title>Klöße</title><link>https://m-mirz.github.io/p/kloesse/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/kloesse/</guid><description>&lt;img src="https://m-mirz.github.io/p/kloesse/kloesse.jpg" alt="Featured image of post Klöße" />&lt;h2 id="zutaten">Zutaten&lt;/h2>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2></description></item><item><title>Pimientos de Padrón</title><link>https://m-mirz.github.io/p/pimientos-padron/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/pimientos-padron/</guid><description>&lt;img src="https://m-mirz.github.io/p/pimientos-padron/pimientos_padron.jpg" alt="Featured image of post Pimientos de Padrón" />&lt;h2 id="zutaten">Zutaten&lt;/h2>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Pizza</title><link>https://m-mirz.github.io/p/pizza/</link><pubDate>Mon, 07 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/pizza/</guid><description>&lt;img src="https://m-mirz.github.io/p/pizza/pizza.jpg" alt="Featured image of post Pizza" />&lt;p>Hier steht ein größeres Update bevor :-)&lt;/p>
+&lt;h2 id="zutaten-für-2-große-runde-pizza-böden">Zutaten für 2 große runde Pizza-Böden&lt;/h2>
+&lt;ul>
+&lt;li>400 g Mehl&lt;/li>
+&lt;li>230 ml Wasser (wichtig: heißes Wasser)&lt;/li>
+&lt;li>1 Päckchen Trockenhefe&lt;/li>
+&lt;li>11 g Salz&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Die trockenen Zutaten in eine Rührschüssel geben, verrühren, dann das heiße Wasser dazu.
+Rühren und anschließend kneten, bis der Teig geschmeidig ist, auch ganz wichtig!&lt;/p>
+&lt;p>Dann mindestens eine Stunde an einem warmen Ort gehen lassen, dabei abdecken, sodass der Teig keine Feuchtigkeit verliert. Besser man lässt den Teig 4 bis 6 Stunden gehen.&lt;/p>
+&lt;p>Zum Backen:&lt;/p>
+&lt;ul>
+&lt;li>Ofen auf höchste Hitzestufe Ober- und Unterhitze&lt;/li>
+&lt;li>Backblech drinn lassen, soll auch heiß werden&lt;/li>
+&lt;li>Backzeit: ca. 8 Min&lt;/li>
+&lt;/ul></description></item><item><title>Brot mit Olivenöl im Backofen</title><link>https://m-mirz.github.io/p/olivenoel-brot/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/olivenoel-brot/</guid><description>&lt;img src="https://m-mirz.github.io/p/olivenoel-brot/olivenoel_brot.jpg" alt="Featured image of post Brot mit Olivenöl im Backofen" />&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Baguette in Scheiben schneiden und mit Öl bestreichen.
+Dann bei 180 Grad etwa 5 Minuten im Backofen lassen.&lt;/p>
+&lt;p>Besonders gut passt dazu Gazpacho. Das Rezept dazu kommt noch ;-)&lt;/p></description></item><item><title>Buchweizencrepes</title><link>https://m-mirz.github.io/p/buchweizencrepes/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/buchweizencrepes/</guid><description>&lt;img src="https://m-mirz.github.io/p/buchweizencrepes/buchweizencrepes.jpg" alt="Featured image of post Buchweizencrepes" />&lt;h2 id="zutaten-für-15-crepes">Zutaten für 15 Crepes&lt;/h2>
+&lt;ul>
+&lt;li>250g Buchweizenmehl&lt;/li>
+&lt;li>1 Esslöffel Weizenmehl&lt;/li>
+&lt;li>1 Teelöffel grober Salz&lt;/li>
+&lt;li>1 Ei&lt;/li>
+&lt;li>12cl Wasser&lt;/li>
+&lt;li>48cl Halbfettmilch&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Buchweizenmehl, Weizenmehl, Salz, Ei und Wasser in eine Schüssel geben.
+Verrühren bis sich eine kompakte Teigkugel ergibt. 12cl Milch hinzugeben und verdünnen, dann 5 Minuten schlagen bis ein absolut homogener Teig entsteht.
+Nach und nach weitere 36cl Milch hinzugeben.&lt;/p></description></item><item><title>Churros</title><link>https://m-mirz.github.io/p/churros/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/churros/</guid><description>&lt;img src="https://m-mirz.github.io/p/churros/churros.jpg" alt="Featured image of post Churros" />&lt;h2 id="zutaten">Zutaten&lt;/h2>
+&lt;ul>
+&lt;li>1 Tasse Mehl&lt;/li>
+&lt;li>1 Tasse Wasser&lt;/li>
+&lt;li>1 Teelöffel Butter&lt;/li>
+&lt;li>Olivenöl&lt;/li>
+&lt;li>dunkle Schokolade&lt;/li>
+&lt;li>Milch&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Wasser in einem Topf erhitzen und Butter und Salz hinzufügen.
+Wenn das Wasser kocht, unter ständigem Rühren mit einem Holzlöffel das Mehl hinzugeben, bis sich der Teig von dem Topf löst.
+Wenn der Teig sehr fest geworden ist, noch etwas Wasser dazugeben.
+Den Teig ruhen lassen bis er abgekühlt ist.
+Dann den Teig in eine Churros- oder Gebäckpresse geben.&lt;/p>
+&lt;p>Die Churros in eine tiefe kleine Pfanne mit reichlich sehr heißem Öl fallen lassen.
+Darauf achten, dass die Churros nicht anbrennen.
+Die Churros auf einem Teller mit Küchenpapier ablaufen lassen.
+Nebenbei die Schokolade erwärmen und etwas Milch dazu geben damit sie nicht zu dickflüssig wird.&lt;/p></description></item><item><title>Croissants</title><link>https://m-mirz.github.io/p/croissants/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/croissants/</guid><description>&lt;img src="https://m-mirz.github.io/p/croissants/croissants.jpg" alt="Featured image of post Croissants" />&lt;h2 id="zutaten">Zutaten&lt;/h2>
+&lt;ul>
+&lt;li>500g Mehl (Type 450)&lt;/li>
+&lt;li>50g Zucker&lt;/li>
+&lt;li>30g frische Hefe&lt;/li>
+&lt;li>1 TL Salz&lt;/li>
+&lt;li>250g Butter&lt;/li>
+&lt;li>310 ml Wasser (kalt)&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;h3 id="teig">Teig&lt;/h3>
+&lt;p>Hefe in das Wasser geben und verrühren. Mehl und Zucker vermischen und dann das Wasser mit Hefe dazugeben. Alles verrühren und durchkneten. Teig mit Mehl bestäuben und in einer Schüssel mit feuchtem Tuch bedeckt 30 Minuten im Kühlschrank lassen.&lt;/p>
+&lt;h3 id="butter-vorbereiten">Butter vorbereiten&lt;/h3>
+&lt;p>Butter mit einer Teigrolle etwas plattdrücken. Dann die Butter auf ein Backpapier legen und dieses quadratisch falten. Nun die Butter mit der Teigrolle platthauen und ausrollen bis sie die Backpapierform ausfüllt. Die Butter ebenfalls für 20 Minuten in den Kühlschrank legen damit sie nicht weich wird.&lt;/p></description></item><item><title>Datteln mit Schinken</title><link>https://m-mirz.github.io/p/datteln/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/datteln/</guid><description>&lt;img src="https://m-mirz.github.io/wooden-board.jpg" alt="Featured image of post Datteln mit Schinken" />&lt;h2 id="zutaten-für-3-4-personen">Zutaten für 3-4 Personen&lt;/h2>
+&lt;ul>
+&lt;li>200g Datteln&lt;/li>
+&lt;li>200g Schinken&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Datteln mit einem halben Streifen Schinken (je nach Größe) umwickeln und in eine Backform geben.
+Dann bei 180 Grad Ober/Unterhitze 20 bis 30 Minuten (je nach Geschmack) im Backofen lassen.&lt;/p></description></item><item><title>Joghurt Sauce</title><link>https://m-mirz.github.io/p/joghurt-sauce/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/joghurt-sauce/</guid><description>&lt;img src="https://m-mirz.github.io/wooden-board.jpg" alt="Featured image of post Joghurt Sauce" />&lt;h2 id="zutaten">Zutaten&lt;/h2>
+&lt;ul>
+&lt;li>1 Packung Schmand&lt;/li>
+&lt;li>1 Packung Joghurt&lt;/li>
+&lt;li>1 Knoblauchzehe&lt;/li>
+&lt;li>1 Teelöffel Olivenöl&lt;/li>
+&lt;li>Salz&lt;/li>
+&lt;li>Pfeffer&lt;/li>
+&lt;li>Frühlingszwiebeln und andere Kräuter&lt;/li>
+&lt;/ul></description></item><item><title>Linsensuppe</title><link>https://m-mirz.github.io/p/linsensuppe/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/linsensuppe/</guid><description>&lt;img src="https://m-mirz.github.io/wooden-board.jpg" alt="Featured image of post Linsensuppe" />&lt;h2 id="zutaten-für-die-suppe">Zutaten für die Suppe&lt;/h2>
+&lt;ul>
+&lt;li>Butter&lt;/li>
+&lt;li>1 Zwiebel&lt;/li>
+&lt;li>1 kleine Möhre&lt;/li>
+&lt;li>1 Stückchen Knollen Sellerie&lt;/li>
+&lt;li>1 Knoblauchzehe&lt;/li>
+&lt;li>1 Tasse Linsen für 2 Pers. Padina&lt;/li>
+&lt;li>Salz, Pfeffer&lt;/li>
+&lt;/ul>
+&lt;h2 id="zutaten-für-die-spätzle">Zutaten für die Spätzle&lt;/h2>
+&lt;ul>
+&lt;li>3 Esslöffel Mehl&lt;/li>
+&lt;li>1 Ei&lt;/li>
+&lt;li>etwas Wasser ca 2 Esslöffel&lt;/li>
+&lt;li>etwas Salz&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Ohne Einweichen brauchen die Linsen etwa 1,5 Stunden.
+Zuerst die Butter auslassen und die Zwiebeln anbraten.
+Wenn die Zwiebeln glasig werden, kommt die fein gewürfelte Karotte hinein.&lt;/p>
+&lt;p>Dann 1 Liter Wasser dazugeben und den Herd auf die höchste Stufe stellen.
+Dann die Linsen in einem feinen Sieb waschen und in den Topf geben.
+Vorsicht, damit es nicht zu viel spritzt.
+Knoblauch schälen, kleinschneiden und dazugeben, ebenso die 1-2 Kartoffeln.
+Die Sellerie sauber abschneiden, würfeln und in den Topf geben.
+Dann etwa ein gestrichener Esslöffel Salz drauf - je nach Geschmack.&lt;/p>
+&lt;p>Wenn die Suppe kocht, auf Stufe die Hitze herunterdrehen, Deckel drauf und 1,5 Stunden köcheln lassen.
+Zum Schluss mit Pfeffer Schärfe abschmecken.&lt;/p>
+&lt;p>Wenn man will, kann man die letzten 10 Minuten Würstchen mit in der Suppe erwärmen.
+Dann aber vorsichtig mit dem Salz, weil die Würstchen auch Salz abgeben.&lt;/p></description></item><item><title>Pfannkuchen</title><link>https://m-mirz.github.io/p/pfannkuchen/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/pfannkuchen/</guid><description>&lt;img src="https://m-mirz.github.io/wooden-board.jpg" alt="Featured image of post Pfannkuchen" />&lt;h2 id="zutaten-für-etwa-6-stück">Zutaten für etwa 6 Stück&lt;/h2>
+&lt;ul>
+&lt;li>225g Mehl&lt;/li>
+&lt;li>3 El Zucker&lt;/li>
+&lt;li>2 Tl Vanille-Zucker&lt;/li>
+&lt;li>3 Eier&lt;/li>
+&lt;li>2 gestr. Tl Backpulver&lt;/li>
+&lt;li>0.5 L Milch&lt;/li>
+&lt;li>1/4 Fl. Rumaroma&lt;/li>
+&lt;/ul></description></item><item><title>Weizencrepes</title><link>https://m-mirz.github.io/p/weizencrepes/</link><pubDate>Sun, 06 Nov 2022 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/weizencrepes/</guid><description>&lt;img src="https://m-mirz.github.io/wooden-board.jpg" alt="Featured image of post Weizencrepes" />&lt;h2 id="zutaten-für-20-crepes">Zutaten für 20 Crepes&lt;/h2>
+&lt;ul>
+&lt;li>100 bis 125g Zucker&lt;/li>
+&lt;li>250g Weizenmehl&lt;/li>
+&lt;li>50cl Milch (fettarm)&lt;/li>
+&lt;li>1 Esslöffel Buchweizenmehl&lt;/li>
+&lt;li>1 Prise Kochsalz&lt;/li>
+&lt;li>2 Eier&lt;/li>
+&lt;li>25g zerlassene Butter oder 1 Esslöffel Öl&lt;/li>
+&lt;li>1 Päckchen Vanillezucker&lt;/li>
+&lt;li>10cl Wasser&lt;/li>
+&lt;/ul>
+&lt;h2 id="zubereitung">Zubereitung&lt;/h2>
+&lt;p>Zucker, Buchweizenmehl, Salz, Eier, Butter bzw. Öl, 1 Päckchen Vanillezucker und Wasser in eine Schüssel geben. Alles schlagen und nach und nach Weizenmehl und 12cl Milch hinzufügen bis Sie einen homogenen, klümpchenfreien Teig erhalten. Dann weitere 38cl Milch hinzugeben.&lt;/p></description></item></channel></rss>

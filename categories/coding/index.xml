@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding on Markus' blog</title><link>https://m-mirz.github.io/categories/coding/</link><description>Recent content in Coding on Markus' blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Thu, 16 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://m-mirz.github.io/categories/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>ssh - cheat sheet</title><link>https://m-mirz.github.io/p/ssh/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0000</pubDate><guid>https://m-mirz.github.io/p/ssh/</guid><description>&lt;img src="https://m-mirz.github.io/matrix.jpg" alt="Featured image of post ssh - cheat sheet" />&lt;h2 id="ssh-key">SSH key&lt;/h2>
+&lt;p>Create SSH key&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-keygen -t ed25519 -C &lt;span class="s2">&amp;#34;example@example.com&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Copy public key to remote server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-copy-id
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-agent">SSH agent&lt;/h2>
+&lt;p>Use SSH-agent in remote server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">exec&lt;/span> ssh-agent bash
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Start SSH agent&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">eval&lt;/span> &lt;span class="k">$(&lt;/span>ssh-agent -s&lt;span class="k">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Add key to agent&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh-add ~/.ssh/&lt;span class="o">[&lt;/span>key file&lt;span class="o">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enable agent forwarding in the local ssh config&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ForwardAgent yes
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Enable agent forwarding in the remote ssh server config&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> vi /etc/ssh/sshd_config
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="ssh-server">SSH server&lt;/h2>
+&lt;p>Start and stop SSH server&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> systemctl status sshd
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> systemctl start sshd
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="jump-host">jump host&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl"> ssh -J user@jumphost -R 8080:localhost:8080 user@hiddenhost
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ssh -R 8080:hiddenhost:8080 user@jumphost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
